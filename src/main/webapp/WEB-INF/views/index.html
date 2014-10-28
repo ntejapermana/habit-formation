@@ -42,6 +42,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1 th:text="${message}">Hello, world!</h1>
+        	<p th:text="#{hello.header}">Wellcome</p>
 			<p th:text="#{hello.content}">This is a template for a simple marketing or informational
 				website. It includes a large callout called a jumbotron and three
 				supporting pieces of content. Use it as a starting point to create
@@ -82,7 +83,7 @@
       <hr/>
 
       <footer>
-        <p>© Company 2014</p>
+        <p>© Company 2014</p> <a href="?lang=id">Indonesian</a> <a href="?lang=fr">French</a> 
       </footer>
     </div> <!-- /container -->
 

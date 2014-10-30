@@ -10,7 +10,7 @@ public class WebAppInitializer extends
 
   @Override
   protected Class<?>[] getRootConfigClasses() {
-    return new Class<?>[] { CoreConfig.class, SecurityConfig.class};
+    return new Class<?>[] { CoreConfig.class, PersistenceConfig.class, SecurityConfig.class};
   }
 
   @Override

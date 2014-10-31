@@ -1,4 +1,4 @@
-package com.duskclouds.habit.controller;
+package com.duskclouds.habit.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

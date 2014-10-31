@@ -22,7 +22,7 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.duskclouds.habit.controller" })
+@ComponentScan(basePackages = { "com.duskclouds.habit.web.controller" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 	
 	@Override
